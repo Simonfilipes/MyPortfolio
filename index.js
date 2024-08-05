@@ -59,19 +59,25 @@ function traduzir() {
 
 function ingles() {
     // TROCA DE TEXTO INGLÊS =============================================
-    h1.innerHTML = 'MY NAME IS <span id="span-h1">SIMON</span>, A FULL STACK <span id="span-h1">DEVELOPER</span>, NICE TO MEET YOU.';
+    h1.innerHTML = 'MY NAME IS <span id="span-h1">SIMON</span>, A BACK-END <span id="span-h1">DEVELOPER</span>, NICE TO MEET YOU.';
     h2.innerHTML = 'Program <span>Skills</span>';
     h2_1.innerHTML = 'Great pleasure, <span>Simon</span>';
     h2_2.innerHTML = 'My <span>Projects</span>';
     h3_5.innerHTML = 'My Portfolio';
 
     p_1.innerHTML = '<span id="span-p-topo-do-site">Programmers</span> and <span id="span-p-topo-do-site">artists</span> are the only professionals <br> who have their own profession as a <span id="span-p-topo-do-site">hobby</span>.';
-    p_2.innerHTML = 'My name is Simon Filipe, I started in the world of programming in 2023 at the age of 16, I started developing programs in Python with automation systems in games that had veryrepetitive tasks, over time I evolved my skills and learned new programming languages ​​andI joined a Technical Course at the age of 17 in Systems Development, where I began to seeprogramming not only as a hobby, but also as a profession.';
-    p_3.innerHTML = "Over time I got to know several new languages, and I wasn't just in the Back - End,but also in the Front - End, I like learning more and more about new programming languages ​and their uses";
-    p_4.innerHTML = 'My native language is Brazilian Portuguese, but I have been studying English for along time, and today I consider my level to be Intermediate/Advanced, progressing more andmore in my studies every day.';
-    p_5.innerHTML = 'I have experience in development in Python, I have knowledge of its logic, syntax, andoperation, I have already made games and studied Machine Learning with Python';
-    p_6.innerHTML = 'I also have experience with JavaScript development, I have worked on teams to produce websites in HTML, CSS and JavaScript, as well as other individual projects.';
-    p_7.innerHTML = "I still don't have any major projects with PHP, but it's the language I'm currently studyingand am very interested in, little by little I'm getting more used to it.";
+    p_2.innerHTML = 'My name is Simon Filipe. My beginnings in programming were at the age of 16, when I started my first studies, starting with the development of Python programs aimed at automating repetitive tasks in games. At the age of 17, I started studying Systems Development on a technical course, where I started to see programming not only as a hobby, but also as a professional career.';
+
+    p_3.innerHTML = "I am proficient in Python, Java, Javascript and HTML5 & CSS3. I have strong problem-solving skills and a passion for continuous learning. My ability to adapt to new technologies quickly and efficiently has allowed me to keep pace with the ever-evolving field of software development.";
+
+    p_4.innerHTML = 'In addition to my technical skills, I am fluent in Portuguese and have advanced proficiency in English.';
+
+    p_5.innerHTML = "Experience with Python 3.x, data manipulation, task automation, creation and consumption of RESTful APIs also is my first lenguage";
+
+    p_6.innerHTML = 'Experience with JavaScript (ES6+), semantic HTML5, CSS3 (Flexbox, Grid). Knowledge of responsive design practices and user interactivity';
+
+    p_7.innerHTML = "Experience with Java 8+ and a bit of frameworks like Spring Boot. Solid programming logic, the language I'm studying at the moment.";
+
     p_8.innerHTML = 'A website that I made as a team on the Systems Development Course, the website is a One Page about the game Hollow Knight, where we use HTML, CSS and JavaScript';
     p_9.innerHTML = 'A presentation page as a Portfolio of my skills, knowledge and projects in the area of ​​programming, with a lot of interactivity, I made every detail of this page with greatcare';
     p_10.innerHTML = 'A game made in Python using the Pygame library, I made it with a partner in two weeks ofwork, I really like the result we had with the game, since we were still beginners';
@@ -86,19 +92,25 @@ function ingles() {
 
 function pt() {
     // TROCA DE TEXTO PORTUGUÊS =============================================
-    h1.innerHTML = 'MEU NOME É <span id="span-h1">SIMON</span>, UM <span id="span-h1">DESENVOLVEDOR</span> FULL STACK, PRAZER EM TE CONHECER.';
+    h1.innerHTML = 'MEU NOME É <span id="span-h1">SIMON</span>, UM <span id="span-h1">DESENVOLVEDOR</span> BACK-END, PRAZER EM TE CONHECER.';
     h2.innerHTML = 'Habilidades de <span>Programação</span>';
     h2_1.innerHTML = 'Muito prazer, <span>Simon</span>';
     h2_2.innerHTML = 'Meus <span>Projetos</span>';
     h3_5.innerHTML = 'Meu Portfolio';
 
     p_1.innerHTML = '<span id="span-p-topo-do-site">Programadores</span> e <span id="span-p-topo-do-site">artistas</span> são os unicos profissionais <br> quem tem como sua própria profissão, o seu <span id="span-p-topo-do-site">hobby</span>.';
-    p_2.innerHTML = 'Meu nome é Simon Filipe, comecei no mundo da programação em 2023 com 16 anos, comecei a desenvolver programas em Python com sistemas de automação em jogos que tinham tarefas muito repetitivas, com o passar do tempo fui evoluindo as minhas competências e aprendendo novas linguagens de programação e Ingressei aos 17 anos no Curso Técnico em Desenvolvimento de Sistemas, onde comecei a ver a programação não só como um hobby, mas também como uma profissão.';
-    p_3.innerHTML = "Com o tempo fui conhecendo diversas linguagens novas, e não fiquei só no Back-End, mas também no Front-End, gosto de aprender cada vez mais sobre novas linguagens de programação e seus usos";
-    p_4.innerHTML = 'Minha língua nativa é o português brasileiro, mas estudo inglês há muito tempo e hoje considero meu nível como Intermediário/Avançado, progredindo cada dia mais nos meus estudos.';
-    p_5.innerHTML = 'Tenho experiência em desenvolvimento em Python, tenho conhecimento de sua lógica, sintaxe e funcionamento, já fiz jogos e estudei Machine Learning com Python';
-    p_6.innerHTML = 'Também tenho experiência com desenvolvimento JavaScript, atuei em equipes para produção de sites em HTML, CSS e JavaScript, além de outros projetos individuais.';
-    p_7.innerHTML = "Ainda não tenho grandes projetos com PHP, mas é a linguagem que estou estudando atualmente e tenho muito interesse, aos poucos estou aprendendo mais e mais da linguagem.";
+    p_2.innerHTML = 'Meu nome é Simon Filipe. Meu início na programação foi aos 16 anos, quando comecei meus primeiros estudos, começando com o desenvolvimento de programas em Python voltados para automatizar tarefas repetitivas em jogos. Aos 17 anos, comecei a estudar Desenvolvimento de Sistemas em um curso técnico, onde comecei a ver a programação não apenas como um hobby, mas também como uma carreira profissional.';
+
+    p_3.innerHTML = "Sou proficiente em Python, Java, Javascript e HTML5 & CSS3. Tenho fortes habilidades de resolução de problemas e uma paixão pelo aprendizado contínuo. Minha capacidade de me adaptar a novas tecnologias de forma rápida e eficiente me permitiu acompanhar o campo em constante evolução do desenvolvimento de software.";
+
+    p_4.innerHTML = 'Além das minhas habilidades técnicas, sou fluente em português e tenho proficiência avançada em inglês.';
+
+    p_5.innerHTML = 'Experiência com Python 3.x, manipulação de dados, automação de tarefas, criação e consumo de APIs RESTful também é minha primeira língua';
+
+    p_6.innerHTML = 'Experiência com JavaScript (ES6+), HTML5 semântico, CSS3 (Flexbox, Grid). Conhecimento de práticas de design responsivo e interatividade do usuário';
+
+    p_7.innerHTML = "Experiência com Java 8+ e um pouco de frameworks como Spring Boot. Lógica de programação sólida, a linguagem que estou estudando no momento.";
+
     p_8.innerHTML = 'Site que fiz em equipe no Curso de Desenvolvimento de Sistemas, o site é um One Page sobre o jogo Hollow Knight, onde usamos HTML, CSS e JavaScript';
     p_9.innerHTML = 'Uma página de apresentação como Portfólio das minhas habilidades, conhecimentos e projetos na área de programação, com muita interatividade, fiz cada detalhe dessa página com muito carinho';
     p_10.innerHTML = 'Um jogo feito em Python utilizando a biblioteca Pygame, fiz com um parceiro em duas semanas de trabalho, gostei muito do resultado que tivemos com o jogo, pois ainda éramos iniciantes';
