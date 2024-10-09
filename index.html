@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.90" , user-scalable=no>
+    <!-- COMEÇO GOOGLE FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- TERMINO -->
+    <!-- boot -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- boot -->
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--scroll reveal-->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="index.js" defer></script>
+    <title>Simon Filipe</title>
+</head>
+
+<body>
+
+    <header id="interface_header">
+
+        <div class="interface">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo" id="logo">
+                </a>
+            </div><!--Logo-->
+
+            <nav class="menu-dekstop" id="nav_a">
+                <ul>
+                    <li id=li_1><a href="#sm">About Me</a></li>
+                    <li id=li_2><a href="#ml">Skills</a></li>
+                    <li id=li_3><a href="#af">Projects</a></li>
+                </ul>
+            </nav>
+            <div class="shiro_contato_topo">
+                <a>
+                    <button id="tradutor" onclick="traduzir()"><i class="bi bi-translate"></i></button>
+                </a>
+                <a>
+                    <button id="sol" onclick="mudar_cor_site()"><i class="bi bi-brightness-low"></i></button>
+                </a>
+            </div>
+        </div><!--Interface-->
+
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1 id="h1">MY NAME IS <span id="span-h1">SIMON</span>, A BACK-END <span
+                                id="span-h1">DEVELOPER</span>, NICE TO MEET YOU.</h1>
+                        <P id="p_1"><span id="span-p-topo-do-site">Programmers</span> and <span
+                                id="span-p-topo-do-site">artists</span> are the only professionals <br> who have their
+                            own profession as a <span id="span-p-topo-do-site">hobby</span>.</P>
+                        <div class="shiro_contato_feedback">
+
+                        </div>
+                        <div class="shiro_contato_topo" id="shiro_contato_topo">
+                            <button id="up" onclick="mudar_cor_up()"><i
+                                    class="bi bi-emoji-heart-eyes-fill"></i></button>
+                            <button id="down" onclick="mudar_cor_down()"><i
+                                    class="bi bi-emoji-expressionless-fill"></i></button>
+                            <button id="favorite" onclick="mudar_cor_favorite()"><i
+                                    class="bi bi-emoji-dizzy-fill"></i></button>
+                        </div>
+
+                        <div class="shiro_contato">
+                            <a href="#footer-contact" id="a_1">
+                                <button>Contact</button>
+                            </a>
+                        </div>
+
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="img/img_1.jpg" alt="imagem_1" id="img_1" class="img_1">
+                        <img src="img/img_3.jpg" alt="imagem_1" id="img_1" class="img_3">
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+            <div id="ml"></div>
+        </section><!--topo-do-site-->
+
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo" id=h2>Program <span>Skills</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box" id="python">
+                        <i class="bi bi-filetype-py"></i>
+                        <h3 id="h3_1">Python</h3>
+                        <p id="p_5">Experience with Python 3.x, data manipulation, task automation, creation and
+                            consumption of RESTful APIs also is my first lenguage</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box" id="js">
+                        <i class="bi bi-filetype-js"></i>
+                        <h3 id="h3_2">JavaScript</h3>
+                        <p id="p_6">Experience with JavaScript (ES6+), semantic HTML5, CSS3 (Flexbox, Grid). Knowledge
+                            of responsive design practices and user interactivity</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box" id="php">
+                        <i class="bi bi-filetype-java"></i>
+                        <h3 id="h3_3">Java</h3>
+                        <p id="p_7">Experience with Java 8+ and a bit of frameworks like Spring Boot. Solid programming logic, the language I'm studying at the moment.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+            <div class="centralizar" id="sm">
+
+            </div>
+        </section><!--especialidades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex" id="sobre_box">
+                    <div class="img-sobre">
+                        <a href="https://github.com/Simonfilipes" id="a_img_2">
+                            <img src="img/img_2.jpg" alt="" id="img_2">
+                        </a>
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre" id="txt-sobre">
+
+                        <h2 id=h2_1>Great pleasure, <span>Simon</span></h2>
+                        <p id="p_2">My name is Simon Filipe. My beginnings in programming were at the age of 16, when I
+                            started my first studies, starting with the development of Python programs aimed at
+                            automating repetitive tasks in games. At the age of 17, I started studying Systems
+                            Development on a
+                            technical course, where I started to see programming not only as a hobby, but also as a
+                            professional career.</p>
+                        <p id="p_3">I am proficient in Python, Java, Javascript and HTML5 & CSS3. I have strong
+                            problem-solving skills and a passion for continuous learning. My ability to adapt to new
+                            technologies quickly and efficiently has allowed me to keep pace with the ever-evolving
+                            field of software development.</p>
+                        <p id="p_4">In addition to my technical skills, I am fluent in Portuguese and have advanced proficiency in English.</p>
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+            <div id="af"></div>
+        </section><!--Sobre-->
+
+        <section class="especialidades" id="af">
+            <div class="interface">
+                <h2 class="titulo" id=h2_2>My <span>Projects</span></h2>
+                <div class="flex">
+
+                    <div class="especialidades-box" id="frieren">
+                        <a href="https://github.com/Simonfilipes/hollowProject" id="a_box">
+                            <i class="bi bi-moon"></i>
+                            <h3 id="h3_4">Hollow</h3>
+                            <p id="p_8">A website that I made as a team on the Systems Development Course, the website
+                                is a One
+                                Page about the game Hollow Knight, where we use HTML, CSS and JavaScript</p>
+                        </a>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box" id="toradora">
+                        <a href="https://github.com/Simonfilipes/MyPortfolio" id="a_box">
+                            <i class="bi bi-heart"></i>
+                            <h3 id="h3_5">My Portfolio</h3>
+                            <p id="p_9">A presentation page as a Portfolio of my skills, knowledge and projects in the
+                                area of
+                                ​​programming, with a lot of interactivity, I made every detail of this page with great
+                                care</p>
+                        </a>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box" id="vagabond">
+                        <a href="https://github.com/Simonfilipes/ballLoopProject" id="a_box">
+                            <i class="bi bi-balloon"></i>
+                            <h3 id="h3_6">Balloop</h3>
+                            <p id="p_10">A game made in Python using the Pygame library, I made it with a partner in two
+                                weeks of
+                                work, I really like the result we had with the game, since we were still beginners</p>
+                        </a>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especialidades-->
+    </main>
+
+    <footer class="footer" id="footer-contact">
+        <div id="contact-footer-div">
+            <p id="contact-footer">Email:<br><span>simonfilipes@gmail.com</span></p>
+            <p id="contact-footer">Github:<br><a href="https://github.com/Simonfilipes"
+                    id="git_link"><span>Simon Filipe</span></a></p>
+            <p id="contact-footer">Linkedin:<br><a href="https://www.linkedin.com/in/simon-filipe/"
+                    id="git_link"><span>Simon Filipe</span></a></p>
+        </div>
+        <a href="index.html" id="footer_logo">
+            <img src="img/logo.png" alt="Logo" id="logo">
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
