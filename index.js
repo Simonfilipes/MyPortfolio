@@ -71,7 +71,7 @@ function traduzir() {
 
 function ingles() {
     // TROCA DE TEXTO INGLÊS =============================================
-    h1.innerHTML = 'MY NAME IS <span id="span-h1">SIMON</span>, A BACK-END <span id="span-h1">DEVELOPER</span>, NICE TO MEET YOU.';
+    h1.innerHTML = 'MY NAME IS <span id="span-h1">SIMON</span>, A FULL STACK <span id="span-h1">DEVELOPER</span>, NICE TO MEET YOU.';
     h2.innerHTML = 'Program <span>Skills</span>';
     h2_1.innerHTML = 'Great pleasure, <span>Simon</span>';
     h2_2.innerHTML = 'My <span>Projects</span>';
@@ -104,7 +104,7 @@ function ingles() {
 
 function pt() {
     // TROCA DE TEXTO PORTUGUÊS =============================================
-    h1.innerHTML = 'MEU NOME É <span id="span-h1">SIMON</span>, UM <span id="span-h1">DESENVOLVEDOR</span> BACK-END, PRAZER EM TE CONHECER.';
+    h1.innerHTML = 'MEU NOME É <span id="span-h1">SIMON</span>, UM <span id="span-h1">DESENVOLVEDOR</span> FULL STACK, PRAZER EM TE CONHECER.';
     h2.innerHTML = 'Habilidades de <span>Programação</span>';
     h2_1.innerHTML = 'Muito prazer, <span>Simon</span>';
     h2_2.innerHTML = 'Meus <span>Projetos</span>';
