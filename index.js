@@ -46,6 +46,18 @@ var li_2 = document.querySelector("#li_2");
 var li_3 = document.querySelector("#li_3");
 var a_1 = document.querySelector("#a_1")
 
+function verificarIndiomaCliente() {
+    const idioma = navigator.language || navigator.userLanguage;
+
+    if (idioma.startsWith('pt')) {
+        pt();
+        cont_trad = 2;
+    }
+
+}
+
+verificarIndiomaCliente();
+
 function traduzir() {
     if (cont_trad == 1) {
         pt();
@@ -66,11 +78,11 @@ function ingles() {
     h3_5.innerHTML = 'My Portfolio';
 
     p_1.innerHTML = '<span id="span-p-topo-do-site">Programmers</span> and <span id="span-p-topo-do-site">artists</span> are the only professionals <br> who have their own profession as a <span id="span-p-topo-do-site">hobby</span>.';
-    p_2.innerHTML = 'My name is Simon Filipe. My beginnings in programming were at the age of 16, when I started my first studies, starting with the development of Python programs aimed at automating repetitive tasks in games. At the age of 17, I started studying Systems Development on a technical course, where I started to see programming not only as a hobby, but also as a professional career.';
+    p_2.innerHTML = 'My name is Simon Filipe, a developer with a solid background in programming and currently studying Systems Development Technician. From an early age, I developed a strong interest in the area and have been building practical skills over the years.';
 
-    p_3.innerHTML = "I am proficient in Python, Java, Javascript and HTML5 & CSS3. I have strong problem-solving skills and a passion for continuous learning. My ability to adapt to new technologies quickly and efficiently has allowed me to keep pace with the ever-evolving field of software development.";
+    p_3.innerHTML = "My experience includes working on independent and team projects, in which I have used languages such as Python, PHP, Java, JavaScript, HTML5 and CSS3. I have a solid understanding of programming logic, as well as a good knowledge of hardware and software, which gives me a complete grasp of the digital environment.";
 
-    p_4.innerHTML = 'In addition to my technical skills, I am fluent in Portuguese and have advanced proficiency in English.';
+    p_4.innerHTML = 'I have advanced English and am an adaptable professional, with an ease of communication and a love of collaborative work.';
 
     p_5.innerHTML = "Experience with Python 3.x, data manipulation, task automation, creation and consumption of RESTful APIs also is my first lenguage";
 
@@ -99,11 +111,11 @@ function pt() {
     h3_5.innerHTML = 'Meu Portfolio';
 
     p_1.innerHTML = '<span id="span-p-topo-do-site">Programadores</span> e <span id="span-p-topo-do-site">artistas</span> são os unicos profissionais <br> quem tem como sua própria profissão, o seu <span id="span-p-topo-do-site">hobby</span>.';
-    p_2.innerHTML = 'Meu nome é Simon Filipe. Meu início na programação foi aos 16 anos, quando comecei meus primeiros estudos, começando com o desenvolvimento de programas em Python voltados para automatizar tarefas repetitivas em jogos. Aos 17 anos, comecei a estudar Desenvolvimento de Sistemas em um curso técnico, onde comecei a ver a programação não apenas como um hobby, mas também como uma carreira profissional.';
+    p_2.innerHTML = 'Meu nome é Simon Filipe, desenvolvedor com sólida formação em programação e atualmente cursando Técnico em Desenvolvimento de Sistemas. Desde cedo, desenvolvi um forte interesse pela área e fui construindo habilidades práticas ao longo dos anos.';
 
-    p_3.innerHTML = "Sou proficiente em Python, Java, Javascript e HTML5 & CSS3. Tenho fortes habilidades de resolução de problemas e uma paixão pelo aprendizado contínuo. Minha capacidade de me adaptar a novas tecnologias de forma rápida e eficiente me permitiu acompanhar o campo em constante evolução do desenvolvimento de software.";
+    p_3.innerHTML = "Minha experiência inclui atuação em projetos independentes e em equipe, nos quais utilizei linguagens como Python, PHP, Java, JavaScript, HTML5 e CSS3. Tenho um sólido entendimento da lógica de programação, além de um bom conhecimento em hardware e software, o que me proporciona um domínio completo sobre o ambiente digital.";
 
-    p_4.innerHTML = 'Além das minhas habilidades técnicas, sou fluente em português e tenho proficiência avançada em inglês.';
+    p_4.innerHTML = 'Possuo inglês avançado e sou um profissional adaptável, com facilidade de comunicação e gosto por trabalho colaborativo.';
 
     p_5.innerHTML = 'Experiência com Python 3.x, manipulação de dados, automação de tarefas, criação e consumo de APIs RESTful também é minha primeira língua';
 
