@@ -8,18 +8,25 @@
 }
 
 @media only screen and (min-width: 1920px) {
+
     /* Ajustes para telas maiores de 1920px */
     header {
-        width: 100%; /* Alterar a largura para ocupar toda a largura da tela */
-        padding: 0 4%; /* Manter o padding nas laterais */
+        width: 100%;
+        /* Alterar a largura para ocupar toda a largura da tela */
+        padding: 0 4%;
+        /* Manter o padding nas laterais */
     }
 
     #contact-footer-div {
-        padding: 0 300px; /* Espaçamento nas laterais */
+        padding: 0 300px;
+        /* Espaçamento nas laterais */
     }
 
+
+
     #footer_logo {
-        margin-right: 290px; /* Ajustar margem direita */
+        margin-right: 290px;
+        /* Ajustar margem direita */
     }
 
     /* Outros ajustes necessários para telas maiores */
@@ -30,7 +37,7 @@ body {
     height: 100vh;
 }
 
-.logo{
+.logo {
     margin-top: 10px;
 }
 
@@ -45,7 +52,7 @@ body {
     margin: 0 auto;
 }
 
-#juntar_aspas{
+#juntar_aspas {
     display: flex;
 }
 
@@ -53,7 +60,7 @@ body {
     display: flex;
 }
 
-header .shiro_contato_topo button{
+header .shiro_contato_topo button {
     width: 60px;
     height: 60px;
     font-size: 35px;
@@ -69,7 +76,7 @@ header .shiro_contato_topo button{
     text-decoration: none;
 }
 
-#tradutor{
+#tradutor {
     border-radius: 10px;
     font-size: 20px;
     width: 50px;
@@ -78,20 +85,20 @@ header .shiro_contato_topo button{
     background-color: rgb(0, 0, 0);
 }
 
-h1{
+h1 {
     transition: opacity 0.5s ease-in-out;
 }
 
-#tradutor:hover{
+#tradutor:hover {
     box-shadow: 0px 0px 8px white;
 }
 
-#tradutor i{
+#tradutor i {
     font-size: 30px;
     color: white;
 }
 
-header .shiro_contato_topo button:hover{
+header .shiro_contato_topo button:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 4px rgb(238, 169, 169);
 }
@@ -119,7 +126,7 @@ header .shiro_contato_topo button:hover{
     box-shadow: 0px 0px 2px rgb(238, 169, 169);
 }
 
-.shiro_contato_topo button{
+.shiro_contato_topo button {
     width: 70px;
     height: 70px;
     font-size: 35px;
@@ -135,7 +142,9 @@ header .shiro_contato_topo button:hover{
     text-decoration: none;
 }
 
-#up, #down, #favorite {
+#up,
+#down,
+#favorite {
     transition: 0.5s ease;
 }
 
@@ -144,13 +153,14 @@ header .shiro_contato_topo button:hover{
     transform: scale(1.05);
     transition: .2s;
 }
+
 .shiro_contato_topo button:hover {
     box-shadow: 0px 0px 0px rgb(255, 255, 255);
     transform: scale(1.12);
     transition: .3s;
 }
 
-#feedback{
+#feedback {
     font-size: 35px;
     color: white;
 }
@@ -198,7 +208,7 @@ header a {
     margin-top: -35px;
 }
 
-#nav_a{
+#nav_a {
     margin-top: -20px;
 }
 
@@ -227,7 +237,7 @@ section.topo-do-site .flex {
     gap: 90px;
 }
 
-.txt-topo-site{
+.txt-topo-site {
     margin-top: 70px;
 }
 
@@ -237,7 +247,7 @@ section.topo-do-site .flex {
     line-height: 40px;
 }
 
-.topo-do-site h1 #span-h1{
+.topo-do-site h1 #span-h1 {
     color: rgb(236, 145, 145);
     font-size: 42px;
 }
@@ -247,7 +257,7 @@ section.topo-do-site .flex {
     font-size: 12px;
 }
 
-#span-p-topo-do-site{
+#span-p-topo-do-site {
     font-size: 25px;
 }
 
@@ -257,12 +267,12 @@ section.topo-do-site .flex {
     font-size: 20px;
 }
 
-#aspas-topo-do-site{
+#aspas-topo-do-site {
     font-size: 25px;
     color: white;
 }
 
-#aspas-topo-do-site_2{
+#aspas-topo-do-site_2 {
     font-size: 25px;
     color: white;
 }
@@ -297,11 +307,11 @@ body {
         opacity: 0%;
     }
 
-    50%{
+    50% {
         left: 0px;
     }
 
-    75%{
+    75% {
         opacity: 100%;
     }
 }
@@ -312,11 +322,11 @@ body {
         opacity: 0%;
     }
 
-    20%{
+    20% {
         left: 0px;
     }
 
-    30%{
+    30% {
         opacity: 100%;
     }
 }
@@ -333,11 +343,11 @@ body {
         opacity: 0%;
     }
 
-    15%{
+    15% {
         top: 0px;
     }
 
-    25%{
+    25% {
         opacity: 100%;
     }
 }
@@ -352,7 +362,7 @@ section.especialidades .flex {
     gap: 60px;
 }
 
- .especialidades .especialidades-box {
+.especialidades .especialidades-box {
     animation: none;
     color: white;
     padding: 41px;
@@ -362,13 +372,13 @@ section.especialidades .flex {
     height: 400px;
     width: 400px;
     box-shadow: 0px 0px 4px rgb(255, 255, 255);
-} 
+}
 
-#af{
+#af {
     margin-top: -50px;
 }
 
-#ml{
+#ml {
     margin-bottom: 15px;
 }
 
@@ -390,16 +400,16 @@ section.especialidades .flex {
     font-size: 28px;
     margin: 15px 0;
     text-align: center;
-    color:  #ffffff;
+    color: #ffffff;
 }
 
-#a_box{
+#a_box {
     height: 400px;
     width: 400px;
     color: white;
 }
 
- #python {
+#python {
     background: rgba(0, 0, 0) url('img/python-o.jpg');
     background-size: cover;
 }
@@ -520,7 +530,7 @@ footer {
     justify-content: space-between;
 }
 
-#contact-footer-div{
+#contact-footer-div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -528,19 +538,19 @@ footer {
     margin-left: 50px;
 }
 
-#git_link{
+#git_link {
     color: rgb(236, 145, 145);
 }
 
-#contact p{
+#contact p {
     padding: 5px;
 }
 
-#contact span{
+#contact span {
     color: rgb(255, 255, 255);
 }
 
-#span_git{
+#span_git {
     color: rgb(0, 0, 0);
 }
 
@@ -567,34 +577,36 @@ footer {
     color: rgb(236, 145, 145);
 }
 
-.footer{
+.footer {
     padding: 20px;
 }
 
-#nav_a{
+#nav_a {
     margin-left: 50px;
 }
 
-#contact-footer{
+#contact-footer {
     margin-left: 0px;
     margin-top: 22px;
     transition: .2s;
 }
 
-#contact-footer a{
+#contact-footer a {
     transition: .2s;
+    color: rgb(236, 145, 145);
+    white-space: nowrap;
 }
 
-#contact-footer a:hover{
+#contact-footer a:hover {
     color: rgb(236, 145, 145);
 }
 
-#contact-footer:hover{
+#contact-footer:hover {
     transform: scale(1.10);
     color: rgb(236, 145, 145);
 }
 
-#af{
+#af {
     margin-bottom: 100px;
 }
 
@@ -608,7 +620,7 @@ footer {
         justify-content: center;
     }
 
-    #logo{
+    #logo {
         margin-top: -9px;
     }
 
@@ -631,8 +643,8 @@ footer {
         padding: 8px;
         font-size: 13px;
     }
-    
-    #nav_a{
+
+    #nav_a {
         margin-top: -35px;
     }
 
@@ -668,13 +680,13 @@ footer {
     section.especialidades .flex {
         gap: 45px;
     }
-    
+
     .especialidades .especialidades-box {
         padding: 20px;
         height: 300px;
         width: 300px;
     }
-    
+
     #img_2 {
         width: 300px;
         height: 300px;
@@ -690,7 +702,7 @@ footer {
         height: 100px;
         margin-top: 15px;
     }
-    
+
     #p-footer {
         margin-right: 60px;
         margin-top: 29px;
@@ -700,33 +712,33 @@ footer {
         margin-right: 20px;
     }
 
-    .footer{
+    .footer {
         height: 170px;
     }
 
-    #nav_a{
+    #nav_a {
         margin-left: 50px;
     }
 
-    #tradutor{
+    #tradutor {
         margin-right: -5px;
         width: 35px;
         height: 35px;
     }
 
-    #tradutor i{
+    #tradutor i {
         font-size: 20px;
     }
 
-    #contact p{
+    #contact p {
         font-size: 14px;
     }
 
-    #contact-footer{
+    #contact-footer {
         font-size: 14px;
     }
 
-    #p-footer{
+    #p-footer {
         font-size: 20px;
         margin-top: 50px;
     }
@@ -738,17 +750,17 @@ footer {
         gap: 0px;
     }
 
-    #sol{
+    #sol {
         width: 45px;
         height: 45px;
         font-size: 30px;
     }
 
-    #tradutor{
+    #tradutor {
         width: 30px;
         height: 30px;
         font-size: 20px;
-        margin-left: -20    px;
+        margin-left: -20 px;
     }
 
     @keyframes flutuar_2 {
@@ -756,94 +768,96 @@ footer {
             right: 250px;
             opacity: 0%;
         }
-    
-        15%{
+
+        15% {
             right: 0px;
         }
-    
-        25%{
+
+        25% {
             opacity: 100%;
         }
     }
-    
 
-    @media screen and (max-width: 740px){
-        ul{
+
+    @media screen and (max-width: 740px) {
+        ul {
             display: flex;
             flex-direction: column;
         }
 
-        #nav_a{
+        #nav_a {
             margin-left: 40px;
         }
     }
 
 
-    .especialidades .especialidades-box i{
+    .especialidades .especialidades-box i {
         display: flex;
         font-size: 40px;
     }
 
 
-    @media screen and (max-width: 450px){
+    @media screen and (max-width: 450px) {
 
-        #nav_a{
+        #nav_a {
             margin-left: 40px;
         }
 
-        .shiro_contato_topo{
+        .shiro_contato_topo {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
         }
 
-        body{
+        body {
             display: flex;
             justify-content: center;
             flex-direction: column;
         }
 
-        #tradutor{
+        #tradutor {
             margin-top: 6px;
             width: 35px;
             height: 35px;
         }
 
-        #tradutor:hover{
+        #tradutor:hover {
             box-shadow: 0px 0px 2px white;
         }
 
 
     }
 
-    
 
-@media screen and (max-width: 437px){
 
-    #li_1{
-        white-space: nowrap;
-    }
-}
+    @media screen and (max-width: 437px) {
 
-@media screen and (max-width: 419px){
-    header{
-        padding: 40px 50px 0px 0px;
-    }
-
-@media screen and (max-width: 419px){
-    header {
-        width: 100vw; /* Usando viewport width para ocupar toda a largura da tela */
-    }
-
-    @media screen and (max-width: 400px) {
-        header{
-            width: 410px;
-        }
-        body{
-            width: 410px;
+        #li_1 {
+            white-space: nowrap;
         }
     }
-}
 
-}
+    @media screen and (max-width: 419px) {
+        header {
+            padding: 40px 50px 0px 0px;
+        }
+
+        @media screen and (max-width: 419px) {
+            header {
+                width: 100vw;
+                /* Usando viewport width para ocupar toda a largura da tela */
+            }
+
+            @media screen and (max-width: 400px) {
+                header {
+                    width: 410px;
+                }
+
+                body {
+                    width: 410px;
+                }
+            }
+        }
+
+    }
 }
