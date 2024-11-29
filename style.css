@@ -282,7 +282,7 @@ section.topo-do-site .flex {
     height: 400px;
     border-radius: 30%;
     z-index: 999;
-    box-shadow: 0px 0px 15px white;
+    box-shadow: 0px 0px 8px #000000;
 }
 
 
@@ -308,11 +308,11 @@ body {
         opacity: 0%;
     }
 
-    50% {
+    15% {
         left: 0px;
     }
 
-    75% {
+    25% {
         opacity: 100%;
     }
 }
@@ -411,17 +411,17 @@ section.especialidades .flex {
 }
 
 #python {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/image.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/lain.jpg');
     background-size: cover;
 }
 
 #js {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/image.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/frieren.png');
     background-size: cover;
 }
 
 #php {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/image.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/python.jpg');
     background-size: cover;
 }
 
