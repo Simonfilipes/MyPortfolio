@@ -52,7 +52,9 @@ function verificarIndiomaCliente() {
     if (idioma.startsWith('pt')) {
         pt();
         cont_trad = 2;
-        white()
+        white();
+    } else {
+        white();
     }
 
 }
