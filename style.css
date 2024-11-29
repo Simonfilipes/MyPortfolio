@@ -411,7 +411,7 @@ section.especialidades .flex {
 }
 
 #python {
-    background: rgba(0, 0, 0) url('img/python-o.jpg');
+    background: rgba(0, 0, 0) url('img');
     background-size: cover;
 }
 
