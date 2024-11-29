@@ -1,4 +1,4 @@
-var cont = 0
+var cont = 1
 var cont_trad = 1
 var img_3 = document.querySelector(".img_3")
 
@@ -56,8 +56,6 @@ function verificarIndiomaCliente() {
     }
 
 }
-
-white();
 
 verificarIndiomaCliente();
 
@@ -339,5 +337,4 @@ function white() {
     vagabond.style.boxShadow = "0px 0px 5px White"
 
     sobre_box.style.boxShadow = "0px 0px 4px White"
-    img_1.style.boxShadow = "0px 0px 15px White"
 }
