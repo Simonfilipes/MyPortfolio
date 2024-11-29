@@ -411,17 +411,17 @@ section.especialidades .flex {
 }
 
 #python {
-    background: rgba(0, 0, 0) url('img');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/image.png');
     background-size: cover;
 }
 
 #js {
-    background: rgba(0, 0, 0) url('img/lain-o.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/image.png');
     background-size: cover;
 }
 
 #php {
-    background: rgba(0, 0, 0) url('img/vagabond-o.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/image.png');
     background-size: cover;
 }
 
