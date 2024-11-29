@@ -1,4 +1,4 @@
-var cont = 1
+var cont = 0
 var cont_trad = 1
 var img_3 = document.querySelector(".img_3")
 
@@ -52,6 +52,7 @@ function verificarIndiomaCliente() {
     if (idioma.startsWith('pt')) {
         pt();
         cont_trad = 2;
+        white()
     }
 
 }
