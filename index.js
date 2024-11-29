@@ -85,15 +85,15 @@ function ingles() {
 
     p_4.innerHTML = 'I have advanced English and am an adaptable professional, with an ease of communication and a love of collaborative work.';
 
-    p_5.innerHTML = "Experience with Python 3.x, data manipulation, task automation, creation and consumption of RESTful APIs also is my first lenguage";
+    p_5.innerHTML = "Experience with Python, PHP, Java, Javascript, HTML & CSS, data manipulation, task automation, creation and consumption of RESTful APIs.";
 
-    p_6.innerHTML = 'Experience with JavaScript (ES6+), semantic HTML5, CSS3 (Flexbox, Grid). Knowledge of responsive design practices and user interactivity';
+    p_6.innerHTML = 'Experience with Laravel for building scalable backend solutions, React for creating dynamic and responsive user interfaces, and Spring Boot for developing robust microservices.';
 
-    p_7.innerHTML = "Experience with Java 8+ and a bit of frameworks like Spring Boot. Solid programming logic, the language I'm studying at the moment.";
+    p_7.innerHTML = "Experience with relational databases (MySQL, PostgreSQL) and NoSQL databases (MongoDB, Firebase). Skilled in database design and query optimization.";
 
-    p_8.innerHTML = 'A website that I made as a team on the Systems Development Course, the website is a One Page about the game Hollow Knight, where we use HTML, CSS and JavaScript';
-    p_9.innerHTML = 'A presentation page as a Portfolio of my skills, knowledge and projects in the area of ​​programming, with a lot of interactivity, I made every detail of this page with greatcare';
-    p_10.innerHTML = 'A game made in Python using the Pygame library, I made it with a partner in two weeks ofwork, I really like the result we had with the game, since we were still beginners';
+    p_8.innerHTML = 'Project developed as a team during the Systems Development Course: a One Page website about the game Hollow Knight, utilizing HTML, CSS, and JavaScript to create an engaging and responsive interface.';
+    p_9.innerHTML = 'A portfolio page designed to showcase my skills, knowledge, and projects in programming. I developed every detail with a focus on interactivity and design, highlighting my dedication and attention to detail.';
+    p_10.innerHTML = 'Development of a game in Python using the Pygame library, created in partnership over two weeks. Despite being an initial project, we achieved impressive results, demonstrating our ability to learn and collaborate effectively.';
 
     li_1.innerHTML = '<a href="#sm">About Me</a>';
     li_2.innerHTML = '<a href="#ml">Skills</a>';
@@ -118,15 +118,15 @@ function pt() {
 
     p_4.innerHTML = 'Possuo inglês avançado e sou um profissional adaptável, com facilidade de comunicação e gosto por trabalho colaborativo.';
 
-    p_5.innerHTML = 'Experiência com Python 3.x, manipulação de dados, automação de tarefas, criação e consumo de APIs RESTful também é minha primeira língua';
+    p_5.innerHTML = 'Experiência com Python, PHP, Java, Javascript, HTML & CSS, manipulação de dados, automação de tarefas, criação e consumo de APIs RESTful.';
 
-    p_6.innerHTML = 'Experiência com JavaScript (ES6+), HTML5 semântico, CSS3 (Flexbox, Grid). Conhecimento de práticas de design responsivo e interatividade do usuário';
+    p_6.innerHTML = 'Experiência com Laravel para desenvolver soluções de backend escaláveis, React para criar interfaces de usuário dinâmicas e responsivas, e Spring Boot para desenvolver microsserviços robustos.';
 
-    p_7.innerHTML = "Experiência com Java 8+ e um pouco de frameworks como Spring Boot. Lógica de programação sólida, a linguagem que estou estudando no momento.";
+    p_7.innerHTML = "Experiência com bancos de dados relacionais (MySQL, PostgreSQL) e bancos de dados NoSQL (MongoDB, Firebase). Habilidade em design de bancos de dados e otimização de consultas.";
 
-    p_8.innerHTML = 'Site que fiz em equipe no Curso de Desenvolvimento de Sistemas, o site é um One Page sobre o jogo Hollow Knight, onde usamos HTML, CSS e JavaScript';
-    p_9.innerHTML = 'Uma página de apresentação como Portfólio das minhas habilidades, conhecimentos e projetos na área de programação, com muita interatividade, fiz cada detalhe dessa página com muito carinho';
-    p_10.innerHTML = 'Um jogo feito em Python utilizando a biblioteca Pygame, fiz com um parceiro em duas semanas de trabalho, gostei muito do resultado que tivemos com o jogo, pois ainda éramos iniciantes';
+    p_8.innerHTML = 'Projeto desenvolvido em equipe durante o Curso de Desenvolvimento de Sistemas: um site One Page sobre o jogo Hollow Knight, utilizando HTML, CSS e JavaScript para criar uma interface atrativa e responsiva.';
+p_9.innerHTML = 'Uma página de portfólio projetada para apresentar minhas habilidades, conhecimentos e projetos na área de programação. Desenvolvi cada detalhe com foco em interatividade e design, destacando meu comprometimento e atenção aos detalhes.';
+p_10.innerHTML = 'Desenvolvimento de um jogo em Python utilizando a biblioteca Pygame, realizado em parceria ao longo de duas semanas. Apesar de ser um projeto inicial, alcançamos resultados surpreendentes, evidenciando nossa capacidade de aprendizado e colaboração.';
 
     li_1.innerHTML = '<a href="#sm">Sobre Mim</a>';
     li_2.innerHTML = '<a href="#ml">Habilidades</a>';
