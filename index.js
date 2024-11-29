@@ -337,4 +337,6 @@ function white() {
     vagabond.style.boxShadow = "0px 0px 5px White"
 
     sobre_box.style.boxShadow = "0px 0px 4px White"
+    img_1.style.boxShadow = "0px 0px 15px White"
+    
 }
