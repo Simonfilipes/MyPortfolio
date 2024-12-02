@@ -232,21 +232,22 @@ function black() {
     down.style.transition = ".5s ease";
     favorite.style.transition = ".5s ease";
 
-    h1.style.transition = "2s ease";
-    h2.style.transition = "2s ease";
-    h2_1.style.transition = "2s ease";
-    h2_2.style.transition = "2s ease";
-    p_1.style.transition = "2s ease";
-    p_2.style.transition = "2s ease";
-    p_3.style.transition = "2s ease";
-    p_4.style.transition = "2s ease";
+    h1.style.transition = "0.5s ease";
+    h2.style.transition = "0.5s ease";
+    h2_1.style.transition = "0.5s ease";
+    h2_2.style.transition = "0.5s ease";
+    p_1.style.transition = "0.5s ease";
+    p_2.style.transition = "0.5s ease";
+    p_3.style.transition = "0.5s ease";
+    p_4.style.transition = "0.5s ease";
 
-    sobre_box.style.transition = "1.5s ease";
+    sobre_box.style.transition = ".5s ease";
 
     // TRANSITION
 
     // COLOR
-    body.style.backgroundColor = "White";
+    body.style.background = "url('img/white.png') repeat 0 0";
+    body.style.backgroundColor = "#000000"; // Cor de fundo base
 
     up.style.backgroundColor = "#000000";
     down.style.backgroundColor = "#000000";
@@ -290,21 +291,23 @@ function white() {
     down.style.transition = ".5s ease";
     favorite.style.transition = ".5s ease";
 
-    h1.style.transition = "2s ease";
-    h2.style.transition = "2s ease";
-    h2_1.style.transition = "2s ease";
-    h2_2.style.transition = "2s ease";
-    p_1.style.transition = "2s ease";
-    p_2.style.transition = "2s ease";
-    p_3.style.transition = "2s ease";
-    p_4.style.transition = "2s ease";
+    h1.style.transition = "0.5s ease";
+    h2.style.transition = "0.5s ease";
+    h2_1.style.transition = "0.5s ease";
+    h2_2.style.transition = "0.5s ease";
+    p_1.style.transition = "0.5s ease";
+    p_2.style.transition = "0.5s ease";
+    p_3.style.transition = "0.5s ease";
+    p_4.style.transition = "0.5s ease";
 
-    sobre_box.style.transition = "1.5s ease";
+    sobre_box.style.transition = ".5s ease";
 
     // TRANSITION
 
     // COLOR
-    body.style.backgroundColor = "#000000";
+    body.style.background = "url('img/black.png') repeat 0 0";
+    body.style.backgroundColor = "#000000"; // Cor de fundo base
+
 
     up.style.backgroundColor = "White";
     down.style.backgroundColor = "White";
