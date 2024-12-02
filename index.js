@@ -52,7 +52,9 @@ function verificarIndiomaCliente() {
     if (idioma.startsWith('pt')) {
         pt();
         cont_trad = 2;
+        black()
     } else {
+        black()
     }
 
 }
@@ -198,7 +200,7 @@ function mudar_cor_site() {
     var img_1 = document.querySelector("#img_1")
 
     if (cont == 1) {
-        black();
+        white();
         cont = 0;
         img_3.style.transition = "1.5s ease";
         img_3.style.display = "flex";
@@ -210,7 +212,7 @@ function mudar_cor_site() {
         img_1.style.animation = "flutuar 3s";
         img_1.style.animation = "flutuar 5s";
     } else {
-        white();
+        black();
         cont = 1;
         img_3.style.transition = "1.5s ease";
         img_3.style.display = "none";
