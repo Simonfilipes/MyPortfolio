@@ -242,20 +242,10 @@ header a {
     font-size: 20px;
     margin-top: -35px;
     color: rgb(0, 0, 0); /* Cor do texto principal */
-    text-shadow: 
-        -.7px -.7px 0 rgb(255, 255, 255), /* Sombra superior esquerda */
-        .7px -.7px 0 rgb(255, 255, 255),  /* Sombra superior direita */
-        -.7px .7px 0 rgb(255, 255, 255),  /* Sombra inferior esquerda */
-        .7px .7px 0 rgb(255, 255, 255);   /* Sombra inferior direita */
 }
 
 header.dark-mode a{
     color: rgb(255, 255, 255); /* Cor do texto principal */
-    text-shadow: 
-        -.7px -.7px 0 rgb(0, 0, 0), /* Sombra superior esquerda */
-        .7px -.7px 0 rgb(0, 0, 0),  /* Sombra superior direita */
-        -.7px .7px 0 rgb(0, 0, 0),  /* Sombra inferior esquerda */
-        .7px .7px 0 rgb(0, 0, 0);   /* Sombra inferior direita */
 }
 
 #nav_a {
@@ -265,11 +255,6 @@ header.dark-mode a{
 header a:hover {
     color: rgb(236, 145, 145);
     transform: scale(1.15);
-    text-shadow: 
-        -.7px -.7px 0 rgb(0, 0, 0), /* Sombra superior esquerda */
-        .7px -.7px 0 rgb(0, 0, 0),  /* Sombra superior direita */
-        -.7px .7px 0 rgb(0, 0, 0),  /* Sombra inferior esquerda */
-        .7px .7px 0 rgb(0, 0, 0);   /* Sombra inferior direita */
 }
 
 header nav ul {
