@@ -219,7 +219,8 @@ html {
 header {
     padding: 40px 4%;
     box-shadow: 0 0 5px 1px rgb(0, 0, 0);
-    backdrop-filter: blur(3px); /* Aplicando o desfoque */
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px); /* Compatibilidade com Safari */
     position: sticky;
     top: 0px;
     z-index: 1000;
