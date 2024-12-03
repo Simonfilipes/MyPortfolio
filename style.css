@@ -219,6 +219,7 @@ html {
 header {
     padding: 40px 4%;
     box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+    background-color: #000000;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px); /* Compatibilidade com Safari */
     position: sticky;
@@ -236,16 +237,11 @@ header>.interface {
 header a {
     transition: .5s ease;
     display: flex;
-    color: rgb(0, 0, 0);
     text-decoration: none;
     display: inline-block;
     transition: .2s;
     font-size: 20px;
     margin-top: -35px;
-    color: rgb(0, 0, 0); /* Cor do texto principal */
-}
-
-header.dark-mode a{
     color: rgb(255, 255, 255); /* Cor do texto principal */
 }
 
@@ -469,7 +465,7 @@ section.especialidades .flex {
 section.sobre {
     padding: 40px 4%;
     margin-top: 50px;
-    backdrop-filter: blur(10px); /* Aplicando o desfoque */
+    backdrop-filter: blur(2px); /* Aplicando o desfoque */
 }
 
 section.sobre .flex {

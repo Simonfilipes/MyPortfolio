@@ -273,8 +273,8 @@ function black() {
     p_2.style.color = "#000000";
     p_3.style.color = "#000000";
     p_4.style.color = "#000000";
-    tradutor.style.color = "white";
-    tradutor.style.backgroundColor = "#000000";
+    // tradutor.style.color = "white";
+    // tradutor.style.backgroundColor = "#000000";
 
     // COLOR
 
@@ -338,8 +338,8 @@ function white() {
     p_3.style.color = "White";
     p_4.style.color = "White";
     nav_a.style.color = "White";
-    tradutor.style.color = "#000000";
-    tradutor.style.backgroundColor = "white";
+    // tradutor.style.color = "#000000";
+    // tradutor.style.backgroundColor = "white";
 
     // COLOR
 
