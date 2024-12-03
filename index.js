@@ -47,6 +47,7 @@ var li_3 = document.querySelector("#li_3");
 var a_1 = document.querySelector("#a_1");
 var header = document.querySelector("header");
 var tradutor = document.querySelector("#tradutor");
+var img_skills = document.querySelector("#img_skills");
 
 function verificarIndiomaCliente() {
     const idioma = navigator.language || navigator.userLanguage;
@@ -247,6 +248,7 @@ function black() {
     p_3.style.transition = "0.5s ease";
     p_4.style.transition = "0.5s ease";
     tradutor.style.transition = "0.5s ease";
+    img_skills.style.transition = "0.5s ease";
     
 
     sobre_box.style.transition = ".5s ease";
@@ -311,6 +313,8 @@ function white() {
     p_3.style.transition = "0.5s ease";
     p_4.style.transition = "0.5s ease";
     tradutor.style.transition = "0.5s ease";
+    img_skills.style.transition = "0.5s ease";
+    
 
     sobre_box.style.transition = ".5s ease";
 
@@ -353,4 +357,5 @@ function white() {
     vagabond.style.boxShadow = "0px 0px 5px White"
 
     sobre_box.style.boxShadow = "0px 0px 4px White"
+    
 }
