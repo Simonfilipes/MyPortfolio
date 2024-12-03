@@ -72,13 +72,14 @@ body{
 }
 
 .logo {
-    margin-top: 10px;
+    margin-top: 12.5px;
 }
 
 #logo {
-    width: 70px;
-    height: 70px;
-    border-radius: 28px;
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px black;
 }
 
 .interface {
@@ -117,6 +118,7 @@ header .shiro_contato_topo button {
     height: 50px;
     gap: 10px;
     background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 h1 {
@@ -129,7 +131,6 @@ h1 {
 
 #tradutor i {
     font-size: 30px;
-    color: white;
 }
 
 header .shiro_contato_topo button:hover {
@@ -217,8 +218,8 @@ html {
 
 header {
     padding: 40px 4%;
-    box-shadow: 0 0 5px 1px rgb(94, 94, 94);
-    background-color: rgb(4, 4, 4);
+    box-shadow: 0 0 5px 1px rgb(0, 0, 0);
+    backdrop-filter: blur(3px); /* Aplicando o desfoque */
     position: sticky;
     top: 0px;
     z-index: 1000;
@@ -232,14 +233,29 @@ header>.interface {
 }
 
 header a {
+    transition: .5s ease;
     display: flex;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     display: inline-block;
     transition: .2s;
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -35px;
+    color: rgb(0, 0, 0); /* Cor do texto principal */
+    text-shadow: 
+        -.7px -.7px 0 rgb(255, 255, 255), /* Sombra superior esquerda */
+        .7px -.7px 0 rgb(255, 255, 255),  /* Sombra superior direita */
+        -.7px .7px 0 rgb(255, 255, 255),  /* Sombra inferior esquerda */
+        .7px .7px 0 rgb(255, 255, 255);   /* Sombra inferior direita */
+}
+
+header.dark-mode a{
+    color: rgb(255, 255, 255); /* Cor do texto principal */
+    text-shadow: 
+        -.7px -.7px 0 rgb(0, 0, 0), /* Sombra superior esquerda */
+        .7px -.7px 0 rgb(0, 0, 0),  /* Sombra superior direita */
+        -.7px .7px 0 rgb(0, 0, 0),  /* Sombra inferior esquerda */
+        .7px .7px 0 rgb(0, 0, 0);   /* Sombra inferior direita */
 }
 
 #nav_a {
@@ -249,6 +265,11 @@ header a {
 header a:hover {
     color: rgb(236, 145, 145);
     transform: scale(1.15);
+    text-shadow: 
+        -.7px -.7px 0 rgb(0, 0, 0), /* Sombra superior esquerda */
+        .7px -.7px 0 rgb(0, 0, 0),  /* Sombra superior direita */
+        -.7px .7px 0 rgb(0, 0, 0),  /* Sombra inferior esquerda */
+        .7px .7px 0 rgb(0, 0, 0);   /* Sombra inferior direita */
 }
 
 header nav ul {
@@ -462,6 +483,7 @@ section.especialidades .flex {
 section.sobre {
     padding: 40px 4%;
     margin-top: 50px;
+    backdrop-filter: blur(10px); /* Aplicando o desfoque */
 }
 
 section.sobre .flex {

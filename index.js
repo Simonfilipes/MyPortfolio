@@ -44,7 +44,9 @@ var vagabond = document.querySelector("#vagabond");
 var li_1 = document.querySelector("#li_1");
 var li_2 = document.querySelector("#li_2");
 var li_3 = document.querySelector("#li_3");
-var a_1 = document.querySelector("#a_1")
+var a_1 = document.querySelector("#a_1");
+var header = document.querySelector("header");
+var tradutor = document.querySelector("#tradutor");
 
 function verificarIndiomaCliente() {
     const idioma = navigator.language || navigator.userLanguage;
@@ -143,7 +145,7 @@ function mudar_cor_up() { // CARINHA FELIZ
     var down = document.querySelector("#down")
     var favorite = document.querySelector("#favorite")
 
-    if (cont == 1) {
+    if (cont == 0) {
         up.style.backgroundColor = "#00ca07";
 
         down.style.backgroundColor = "rgb(255, 255, 255)";
@@ -161,7 +163,7 @@ function mudar_cor_down() { // CARINHA MÉDIA
     var down = document.querySelector("#down")
     var favorite = document.querySelector("#favorite")
 
-    if (cont == 1) {
+    if (cont == 0) {
         up.style.backgroundColor = "rgb(255, 255, 255)";
 
         down.style.backgroundColor = "#ff8100";
@@ -181,7 +183,7 @@ function mudar_cor_favorite() { // CARINHA IRRITADA
     var down = document.querySelector("#down")
     var favorite = document.querySelector("#favorite")
 
-    if (cont == 1) {
+    if (cont == 0) {
         up.style.backgroundColor = "rgb(255, 255, 255)";
         down.style.backgroundColor = "rgb(255, 255, 255)";
 
@@ -201,6 +203,7 @@ function mudar_cor_site() {
 
     if (cont == 1) {
         white();
+        header.classList.add("dark-mode");
         cont = 0;
         img_3.style.transition = "1.5s ease";
         img_3.style.display = "flex";
@@ -213,6 +216,7 @@ function mudar_cor_site() {
         img_1.style.animation = "flutuar 5s";
     } else {
         black();
+        header.classList.remove("dark-mode");
         cont = 1;
         img_3.style.transition = "1.5s ease";
         img_3.style.display = "none";
@@ -242,6 +246,8 @@ function black() {
     p_2.style.transition = "0.5s ease";
     p_3.style.transition = "0.5s ease";
     p_4.style.transition = "0.5s ease";
+    tradutor.style.transition = "0.5s ease";
+    
 
     sobre_box.style.transition = ".5s ease";
 
@@ -267,6 +273,9 @@ function black() {
     p_2.style.color = "#000000";
     p_3.style.color = "#000000";
     p_4.style.color = "#000000";
+    tradutor.style.color = "white";
+    tradutor.style.backgroundColor = "#000000";
+
     // COLOR
 
     // BOX-SHADOW
@@ -301,6 +310,7 @@ function white() {
     p_2.style.transition = "0.5s ease";
     p_3.style.transition = "0.5s ease";
     p_4.style.transition = "0.5s ease";
+    tradutor.style.transition = "0.5s ease";
 
     sobre_box.style.transition = ".5s ease";
 
@@ -327,6 +337,10 @@ function white() {
     p_2.style.color = "White";
     p_3.style.color = "White";
     p_4.style.color = "White";
+    nav_a.style.color = "White";
+    tradutor.style.color = "#000000";
+    tradutor.style.backgroundColor = "white";
+
     // COLOR
 
     // BOX SHADOW
