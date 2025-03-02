@@ -502,17 +502,17 @@ section.especialidades .flex {
 }
 
 #python {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/card-img.jpg');
+    background: rgb(0, 0, 0) url('img/vagabond-o.png');
     background-size: cover;
 }
 
 #js {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/card-img2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/lain.jpg');
     background-size: cover;
 }
 
 #php {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/card-img.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/frieren.png');
     background-size: cover;
 }
 
@@ -581,17 +581,17 @@ section.sobre .flex {
 }
 
 #frieren {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/card-img2.jpg');
+    background: rgb(0, 0, 0) url('img/hollow-o.png');
     background-size: cover;
 }
 
 #toradora {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/card-img.jpg');
+    background: rgba(0, 0, 0) url('img/simon.png');
     background-size: cover;
 }
 
 #vagabond {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/card-img2.jpg');
+    background: rgba(0, 0, 0) url('img/background-o.png');
     background-size: cover;
 }
 
