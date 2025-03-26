@@ -81,7 +81,7 @@ function ingles() {
     h2.innerHTML = 'Program <span>Skills</span>';
     h2_1.innerHTML = 'Great pleasure, <span>Simon</span>';
     h2_2.innerHTML = 'My <span>Projects</span>';
-    h3_5.innerHTML = 'My Portfolio';
+    h3_5.innerHTML = 'Balloop';
 
     p_1.innerHTML = '<span id="span-p-topo-do-site">Programmers</span> and <span id="span-p-topo-do-site">artists</span> are the only professionals <br> who have their own profession as a <span id="span-p-topo-do-site">hobby</span>.';
     p_2.innerHTML = 'My name is Simon Filipe, a developer with a solid background in programming and currently studying Systems Development Technician. From an early age, I developed a strong interest in the area and have been building practical skills over the years.';
@@ -96,9 +96,9 @@ function ingles() {
 
     p_7.innerHTML = "Experience with relational databases (MySQL, PostgreSQL) and NoSQL databases (MongoDB, Firebase). Skilled in database design and query optimization.";
 
-    p_8.innerHTML = 'Project developed as a team during the Systems Development Course: a One Page website about the game Hollow Knight, utilizing HTML, CSS, and JavaScript to create an engaging and responsive interface.';
-    p_9.innerHTML = 'A portfolio page designed to showcase my skills, knowledge, and projects in programming. I developed every detail with a focus on interactivity and design, highlighting my dedication and attention to detail.';
-    p_10.innerHTML = 'Development of a game in Python using the Pygame library, created in partnership over two weeks. Despite being an initial project, we achieved impressive results, demonstrating our ability to learn and collaborate effectively.';
+    p_8.innerHTML = 'Snake Game is an implementation of the classic snake game, developed in Java with a focus on programming logic concepts, event handling and graphical interface';
+    p_9.innerHTML = 'A game made in Python using the Pygame library, I made it with a partner in two weeks of work, I really like the result we had with the game, since we were still learning about Pygame.';
+    p_10.innerHTML = 'Project developed by a team during the Systems Development Course: a One Page website about the game Hollow Knight, using HTML, CSS and JavaScript to create an attractive and responsive interface.';
 
     li_1.innerHTML = '<a href="#sm">About Me</a>';
     li_2.innerHTML = '<a href="#ml">Skills</a>';
@@ -114,7 +114,7 @@ function pt() {
     h2.innerHTML = 'Habilidades de <span>Programação</span>';
     h2_1.innerHTML = 'Muito prazer, <span>Simon</span>';
     h2_2.innerHTML = 'Meus <span>Projetos</span>';
-    h3_5.innerHTML = 'Meu Portfolio';
+    h3_5.innerHTML = 'Balloop';
 
     p_1.innerHTML = '<span id="span-p-topo-do-site">Programadores</span> e <span id="span-p-topo-do-site">artistas</span> são os unicos profissionais <br> quem tem como sua própria profissão, o seu <span id="span-p-topo-do-site">hobby</span>.';
     p_2.innerHTML = 'Meu nome é Simon Filipe, desenvolvedor com sólida formação em programação e atualmente cursando Técnico em Desenvolvimento de Sistemas. Desde cedo, desenvolvi um forte interesse pela área e fui construindo habilidades práticas ao longo dos anos.';
@@ -129,9 +129,9 @@ function pt() {
 
     p_7.innerHTML = "Experiência com bancos de dados relacionais (MySQL, PostgreSQL) e bancos de dados NoSQL (MongoDB, Firebase). Habilidade em design de bancos de dados e otimização de consultas.";
 
-    p_8.innerHTML = 'Projeto desenvolvido em equipe durante o Curso de Desenvolvimento de Sistemas: um site One Page sobre o jogo Hollow Knight, utilizando HTML, CSS e JavaScript para criar uma interface atrativa e responsiva.';
-p_9.innerHTML = 'Uma página de portfólio projetada para apresentar minhas habilidades, conhecimentos e projetos na área de programação. Desenvolvi cada detalhe com foco em interatividade e design, destacando meu comprometimento e atenção aos detalhes.';
-p_10.innerHTML = 'Desenvolvimento de um jogo em Python utilizando a biblioteca Pygame, realizado em parceria ao longo de duas semanas. Apesar de ser um projeto inicial, alcançamos resultados surpreendentes, evidenciando nossa capacidade de aprendizado e colaboração.';
+    p_8.innerHTML = 'O Snake Game é uma implementação do jogo clássico da cobrinha, desenvolvida em Java com foco em conceitos de lógica de programação, manipulação de eventos e interface gráfica.';
+    p_9.innerHTML = 'Um jogo feito em Python usando a biblioteca Pygame, fiz com um parceiro em duas semanas de trabalho, gostei muito do resultado que tivemos com o jogo, pois ainda estavamos aprendendo sobre Pygame.';
+    p_10.innerHTML = 'Projeto desenvolvido em equipe durante o Curso de Desenvolvimento de Sistemas: um site One Page sobre o jogo Hollow Knight, utilizando HTML, CSS e JavaScript para criar uma interface atrativa e responsiva.';
 
     li_1.innerHTML = '<a href="#sm">Sobre Mim</a>';
     li_2.innerHTML = '<a href="#ml">Habilidades</a>';

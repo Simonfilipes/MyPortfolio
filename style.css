@@ -581,17 +581,17 @@ section.sobre .flex {
 }
 
 #frieren {
-    background: rgb(0, 0, 0) url('img/hollow-o.png');
+    background: rgb(0, 0, 0) url('img/simon.png');
     background-size: cover;
 }
 
 #toradora {
-    background: rgba(0, 0, 0) url('img/simon.png');
+    background: rgba(0, 0, 0) url('img/background-o.png');
     background-size: cover;
 }
 
 #vagabond {
-    background: rgba(0, 0, 0) url('img/background-o.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/chainsaw.jpg');
     background-size: cover;
 }
 
