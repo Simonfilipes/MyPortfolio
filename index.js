@@ -84,9 +84,9 @@ function ingles() {
     h3_5.innerHTML = 'Balloop';
 
     p_1.innerHTML = '<span id="span-p-topo-do-site">Programmers</span> and <span id="span-p-topo-do-site">artists</span> are the only professionals <br> who have their own profession as a <span id="span-p-topo-do-site">hobby</span>.';
-    p_2.innerHTML = 'My name is Simon Filipe, a developer with a solid background in programming and currently studying Systems Development Technician. From an early age, I developed a strong interest in the area and have been building practical skills over the years.';
+    p_2.innerHTML = 'My name is Simon Filipe, a developer with a solid foundation in programming and currently pursuing a Computer Science degree at Estácio. I have already completed a technical course in Systems Development, which provided me with a strong practical and theoretical base.';
 
-    p_3.innerHTML = "My experience includes working on independent and team projects, in which I have used languages such as Python, PHP, Java, JavaScript, HTML5 and CSS3. I have a solid understanding of programming logic, as well as a good knowledge of hardware and software, which gives me a complete grasp of the digital environment.";
+    p_3.innerHTML = "I have experience working on both independent and team projects, using languages such as Python, PHP, Java, JavaScript, HTML5, and CSS3, as well as frameworks like Laravel and React. I have a solid understanding of programming logic, along with good knowledge of hardware and software, giving me a comprehensive view of the tech environment.";
 
     p_4.innerHTML = 'I have advanced English and am an adaptable professional, with an ease of communication and a love of collaborative work.';
 
@@ -98,7 +98,7 @@ function ingles() {
 
     p_8.innerHTML = 'Snake Game is an implementation of the classic snake game, developed in Java with a focus on programming logic concepts, event handling and graphical interface';
     p_9.innerHTML = 'A game made in Python using the Pygame library, I made it with a partner in two weeks of work, I really like the result we had with the game, since we were still learning about Pygame.';
-    p_10.innerHTML = 'Project developed by a team during the Systems Development Course: a One Page website about the game Hollow Knight, using HTML, CSS and JavaScript to create an attractive and responsive interface.';
+    p_10.innerHTML = 'I speak advanced English and consider myself an adaptable professional, with strong communication skills and a passion for collaborative work.';
 
     li_1.innerHTML = '<a href="#sm">About Me</a>';
     li_2.innerHTML = '<a href="#ml">Skills</a>';
@@ -117,11 +117,11 @@ function pt() {
     h3_5.innerHTML = 'Balloop';
 
     p_1.innerHTML = '<span id="span-p-topo-do-site">Programadores</span> e <span id="span-p-topo-do-site">artistas</span> são os unicos profissionais <br> quem tem como sua própria profissão, o seu <span id="span-p-topo-do-site">hobby</span>.';
-    p_2.innerHTML = 'Meu nome é Simon Filipe, desenvolvedor com sólida formação em programação e atualmente cursando Técnico em Desenvolvimento de Sistemas. Desde cedo, desenvolvi um forte interesse pela área e fui construindo habilidades práticas ao longo dos anos.';
+    p_2.innerHTML = 'Meu nome é Simon Filipe, desenvolvedor com uma base sólida em programação e atualmente cursando Ciência da Computação na Estácio. Já concluí o curso técnico em Desenvolvimento de Sistemas, o que me proporcionou uma boa base prática e teórica na área.';
 
-    p_3.innerHTML = "Minha experiência inclui atuação em projetos independentes e em equipe, nos quais utilizei linguagens como Python, PHP, Java, JavaScript, HTML5 e CSS3. Tenho um sólido entendimento da lógica de programação, além de um bom conhecimento em hardware e software, o que me proporciona um domínio completo sobre o ambiente digital.";
+    p_3.innerHTML = "Tenho experiência com projetos independentes e em equipe, utilizando linguagens como Python, PHP, Java, JavaScript, HTML5 e CSS3, além de frameworks como Laravel e React. Possuo domínio de lógica de programação, bem como um bom conhecimento em hardware e software, o que me permite uma visão completa do ambiente tecnológico.";
 
-    p_4.innerHTML = 'Possuo inglês avançado e sou um profissional adaptável, com facilidade de comunicação e gosto por trabalho colaborativo.';
+    p_4.innerHTML = 'Tenho inglês avançado e sou um profissional adaptável, com facilidade de comunicação e paixão por trabalho colaborativo.';
 
     p_5.innerHTML = 'Experiência com Python, PHP, Java, Javascript, HTML & CSS, manipulação de dados, automação de tarefas, criação e consumo de APIs RESTful.';
 
